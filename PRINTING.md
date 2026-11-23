@@ -12,12 +12,12 @@ embedded fonts, clickable links, and vector QR codes:
 - `SNC_Unhoused_Resources_Print_Packet.pdf`: the overview followed by both
   recovery pages, combined for convenient printing.
 
-## Publication proof
+## Print edition
 
-The supplied PDFs are **publication proofs**. The GitHub Pages links inside
-them use the intended new repository address. Publish the site and verify both
-resource routes before removing the proof notice or distributing these sheets.
-The program QR codes still point directly to the providers' websites.
+The published PDFs link to the live phonebook and recovery guide on GitHub
+Pages. Each program QR code opens the provider's website. The build status
+in `print/build-info.json` identifies the edition. A proof build is marked
+`pending` and carries a visible notice on every page.
 
 The provider-information review date is November 19, 2026. The packaging date
 is November 20, 2026. Rebuilding or publishing a PDF does not perform a new

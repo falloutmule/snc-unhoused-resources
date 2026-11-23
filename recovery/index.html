@@ -312,7 +312,7 @@
       }, 5000);
       channel.port1.onmessage = event => {
         clearTimeout(timer); channel.port1.close();
-        status.textContent = event.data && event.data.type === 'OFFLINE_STATUS' && event.data.cache === 'snc-unhoused-resources-v1-6a7f2ff9e16b' && event.data.ready === true
+        status.textContent = event.data && event.data.type === 'OFFLINE_STATUS' && event.data.cache === 'snc-unhoused-resources-v1-9df71d544d93' && event.data.ready === true
           ? 'Saved for offline reading in this browser. Calls need phone service; source websites need internet.'
           : 'Offline setup is incomplete. Use Download offline HTML to save a copy.';
       };

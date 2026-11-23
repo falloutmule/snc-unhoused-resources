@@ -1,6 +1,6 @@
 'use strict';
 const CACHE_PREFIX = 'snc-unhoused-resources-';
-const CACHE = CACHE_PREFIX + 'v1-6a7f2ff9e16b';
+const CACHE = CACHE_PREFIX + 'v1-9df71d544d93';
 const APP_SHELL = [
   "./",
   "./index.html",

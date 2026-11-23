@@ -6,7 +6,10 @@ The user requested a separate public GitHub repository named **SNC Unhoused Reso
 
 Publish this complete static package as its own repository. Do not merge draft PR #39 or change `falloutmule/solidarity-not-charity-can-run`; that older repository contains a separate game and the earlier resource copies.
 
-## Current state
+## Handoff snapshot from November 20, 2026
+
+The notes below describe the package before publication. The README lists the
+public addresses and `print/build-info.json` records the current print edition.
 
 - Prepared November 20, 2026. Source review remains November 19, 2026; individual phonebook entries preserve the date and scope of their checks.
 - The connected GitHub tools could not create repositories or administer Pages. The CLI had no authenticated session, and GitHub's new-repository page required sign-in. The user explicitly authorized a ZIP for Codex as the fallback.
