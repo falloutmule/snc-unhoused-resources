@@ -1,0 +1,555 @@
+[
+  {
+    "id": "step-denver",
+    "section": "colorado",
+    "name": "Step Denver",
+    "location": "Denver, Colorado",
+    "people": "Men 18+ | Peer recovery and housing",
+    "beds": 65,
+    "unit": "beds",
+    "bednote": "Primary facility: 65; sober homes bring the published total to 95",
+    "cost": "Free entry; program fees and food expenses after employment.",
+    "residency": "Out-of-state applicants considered; arrange intake before travel.",
+    "stay": "No fixed stay; continued participation and employment required.",
+    "warning": "",
+    "phones": [
+      [
+        "Admissions",
+        "303-295-7837"
+      ]
+    ],
+    "website": "https://stepdenver.org/apply/",
+    "details": [
+      [
+        "Bed count",
+        "The organization's ColoradoGives profile lists <strong>65 beds at the primary facility</strong> and room for up to 95 men including sober homes. An operator-published July 2025 article also describes the 65-bed Denver facility. This replaces the earlier 60-bed figure from 2023. The 95 total is not the size of the entry facility; neither figure is a vacancy count."
+      ],
+      [
+        "Cost and stay",
+        "No entry charge is published. After employment, Step lists $15/day, $75/week, or $200/month in program fees, plus buying and preparing food. Confirm the applicable payment option. There is no fixed stay length."
+      ],
+      [
+        "Admission and work",
+        "Applications normally run Monday-Friday, 7 a.m.-noon. Out-of-state intake exceptions are possible. Applicants must be sober at intake and able to work a full-time payroll job. The operator lists restrictions on outside financial support and government stipends. This is not a clinical detox service; confirm all medications and screening rules."
+      ]
+    ],
+    "sources": [
+      [
+        "Admissions, residency exceptions, fees and work rules",
+        "https://stepdenver.org/apply/"
+      ],
+      [
+        "Organization profile: 65 primary-facility beds and 95 including homes",
+        "https://www.coloradogives.org/organization/StepDenver"
+      ],
+      [
+        "Operator article supporting the 65-bed Denver figure, July 2025",
+        "https://stepsprings.org/gazette-news-step-springs-nearing-completion/"
+      ],
+      [
+        "Program FAQ and length of stay",
+        "https://stepdenver.org/program-faqs/"
+      ]
+    ],
+    "flyer_name": "Step Denver",
+    "flyer_meta": "Denver, CO | Men 18+ | 65 main-facility beds",
+    "flyer_summary": "Peer-led recovery housing. Free entry; fees and food costs after employment.",
+    "flyer_rules": "Out-of-state applicants considered. Must be sober and able to work full time."
+  },
+  {
+    "id": "sage-ridge",
+    "section": "colorado",
+    "name": "Sage Ridge",
+    "location": "Watkins / Arapahoe County, Colorado",
+    "people": "Adults 18+ | Supportive recovery housing",
+    "beds": 192,
+    "unit": "places",
+    "bednote": "192 recovery-housing places at full capacity; clinical beds counted separately",
+    "cost": "Housing reported free; confirm separate healthcare costs.",
+    "residency": "Colorado eligibility rules conflict between the webpage and application. Call intake.",
+    "stay": "Up to two years; referral and screening required.",
+    "warning": "The webpage says Colorado residency OR Colorado Medicaid; the August 2026 application asks for six months in Colorado.",
+    "phones": [
+      [
+        "Referrals",
+        "303-285-5200"
+      ]
+    ],
+    "website": "https://www.coloradocoalition.org/sageridge",
+    "details": [
+      [
+        "Bed count",
+        "The operator's March 2026 fact sheet lists <strong>192 recovery-housing places at full capacity</strong>. AllHealth Network separately lists 27 withdrawal-management beds on campus. Those clinical beds are excluded from this housing count and cost statement. Capacity does not establish current openings or staffed beds."
+      ],
+      [
+        "Residency: confirmation needed",
+        "The current operator webpage says <strong>Colorado residency or Colorado Medicaid</strong>. Its linked application, revised <strong>August 31, 2026</strong>, asks applicants to attest to <strong>six months living, renting, or attending school in Colorado</strong>; it does not show a Medicaid exception. The sources do not resolve which rule governs an individual application. Ask intake before arranging travel."
+      ],
+      [
+        "Cost and admission",
+        "January 2026 reporting quotes a Coalition spokesperson describing Sage Ridge and Fort Lyon as free to guests. Confirm housing terms, benefit contributions and separate medical charges. Adults must be experiencing homelessness or housing instability, voluntarily pursuing recovery and medically stable for independent daily living. Legal and medical screening applies."
+      ],
+      [
+        "Medication and daily life",
+        "The operator allows medication-assisted treatment. Methadone transfer must be arranged before intake. Stays can last up to two years. A 30-45-day initial adjustment period limits off-campus activity; outside employment begins no earlier than six months. Discuss the current rules and your prescriptions with the referral team."
+      ]
+    ],
+    "sources": [
+      [
+        "Operator admission rules and referral contact",
+        "https://www.coloradocoalition.org/sageridge"
+      ],
+      [
+        "Application revised August 31, 2026: residency attestation (PDF)",
+        "https://www.coloradocoalition.org/sites/default/files/2026-08/Sage%20Ridge%20Application%20CCH%20-%2008312026.pdf"
+      ],
+      [
+        "Operator March 2026 fact sheet: 192-person housing capacity (PDF)",
+        "https://www.coloradocoalition.org/sites/default/files/2026-03/SageRidgeExternalOnePager%20(1)%20(1).pdf"
+      ],
+      [
+        "AllHealth: separate clinical services and 27 withdrawal beds",
+        "https://www.allhealthnetwork.org/services/substance-use-recovery/sage-ridge-supportive-residential/"
+      ],
+      [
+        "Cost reporting quoting the operator, January 2026",
+        "https://denverite.com/2026/01/06/homelessness-addiction-recovery-sage-ridge-colorado/"
+      ]
+    ],
+    "flyer_name": "Sage Ridge",
+    "flyer_meta": "Watkins, CO | Adults 18+ | 192 recovery-housing places",
+    "flyer_summary": "Housing reported free for up to two years; separate healthcare costs may apply.",
+    "flyer_rules": "Homelessness or housing instability required. Residency/Medicaid rules conflict; call intake."
+  },
+  {
+    "id": "fort-lyon",
+    "section": "colorado",
+    "name": "Fort Lyon",
+    "location": "Near Las Animas, Colorado",
+    "people": "Adults 18+ | Supportive recovery housing",
+    "beds": 250,
+    "unit": "places",
+    "bednote": "Operator publishes capacity for up to 250 residents",
+    "cost": "Housing reported free; confirm incidental and healthcare expenses.",
+    "residency": "Colorado resident for at least six months; homeless or at risk of homelessness.",
+    "stay": "Up to two years; provider referral required.",
+    "warning": "",
+    "phones": [
+      [
+        "Referrals",
+        "719-662-1162"
+      ]
+    ],
+    "website": "https://www.coloradocoalition.org/fortlyonreferral",
+    "details": [
+      [
+        "Bed count",
+        "The current operator referral page lists capacity for <strong>up to 250 people</strong>. This is the size of the residential community, not current openings."
+      ],
+      [
+        "Cost and admission",
+        "January 2026 reporting quotes the operator describing Fort Lyon and Sage Ridge as free to guests. Ask about incidental costs and healthcare coverage. Referral is through a case manager or service/healthcare provider. Applicants must voluntarily want recovery and meet residency, housing-instability, legal and medical criteria."
+      ],
+      [
+        "Stay and medical readiness",
+        "Stays can last up to two years. The current referral page asks for a <strong>30-day supply of required medication plus a refill arrangement</strong>. Detox requirements must be satisfied safely before admission. Older linked materials give different medication and TB requirements; use the intake team's current instructions. Discuss mobility needs, prescriptions and safe withdrawal care with the referral team."
+      ]
+    ],
+    "sources": [
+      [
+        "Current referral criteria, capacity, residency rule and phone",
+        "https://www.coloradocoalition.org/fortlyonreferral"
+      ],
+      [
+        "Resident information and duration",
+        "https://www.coloradocoalition.org/fortlyonprogram"
+      ],
+      [
+        "Cost reporting quoting the operator, January 2026",
+        "https://denverite.com/2026/01/06/homelessness-addiction-recovery-sage-ridge-colorado/"
+      ]
+    ],
+    "flyer_name": "Fort Lyon",
+    "flyer_meta": "Near Las Animas, CO | Adults 18+ | Up to 250 places",
+    "flyer_summary": "Recovery housing reported free for up to two years. Provider referral required.",
+    "flyer_rules": "Colorado residency of 6+ months and homelessness or housing risk required; screening applies."
+  },
+  {
+    "id": "other-side-denver",
+    "section": "colorado",
+    "name": "The Other Side Academy",
+    "location": "Denver campus, Colorado",
+    "people": "Adults 18-64 | Residential work and recovery community",
+    "beds": null,
+    "unit": "beds unknown",
+    "bednote": "Current Denver total unverified after a 2025 housing expansion",
+    "cost": "No program charge; substantial work commitment.",
+    "residency": "Out-of-state policy not established in the reviewed pages. Ask Denver intake.",
+    "stay": "30-month residential commitment.",
+    "warning": "Published psychiatric-medication and dual-diagnosis exclusions; no medical staff to monitor those needs.",
+    "phones": [
+      [
+        "Denver admissions",
+        "303-335-9488"
+      ]
+    ],
+    "website": "https://www.theothersideacademy.com/how-to-apply",
+    "details": [
+      [
+        "Bed count",
+        "The earlier 70-person Denver figure was historical. A May 2025 report from the program's funder describes the opening of a house for 48 men in April 2025. That does not establish the total across today's Denver buildings. The old figure and new house are not added together. Current total capacity is unverified."
+      ],
+      [
+        "Commitment",
+        "The operator publishes no program fee and a <strong>30-month</strong> stay with an intensive work and education schedule. Applicants generally must be 18-64 and able to participate."
+      ],
+      [
+        "Admission and medical fit",
+        "The judicial-information page explicitly excludes applicants requiring <q>psychological medication</q>, citing lack of medical staff. It also lists dual-diagnosis, sex-offense and arson exclusions. Confirm your individual eligibility and exact prescriptions with intake. Do not stop prescribed treatment to qualify."
+      ]
+    ],
+    "sources": [
+      [
+        "How to apply",
+        "https://www.theothersideacademy.com/how-to-apply"
+      ],
+      [
+        "Official cost, age, duration and medication restrictions",
+        "https://www.theothersideacademy.com/judicial-information"
+      ],
+      [
+        "Denver contact",
+        "https://www.theothersideacademy.com/contact-denver"
+      ],
+      [
+        "Primary funder visit report: April 2025 housing opening",
+        "https://impact100metrodenver.org/the-other-side-academy-update-2025/"
+      ]
+    ],
+    "flyer_name": "The Other Side Academy - Denver",
+    "flyer_meta": "Denver, CO | Adults 18-64 | Current bed total unverified",
+    "flyer_summary": "Free 30-month residential work and recovery program. Ask about out-of-state intake.",
+    "flyer_rules": "Psychiatric-medication and dual-diagnosis exclusions. Confirm individual eligibility."
+  },
+  {
+    "id": "stout-street",
+    "section": "colorado",
+    "name": "Stout Street Foundation",
+    "location": "Commerce City, Colorado",
+    "people": "Adults 18+ | Long-term residential treatment",
+    "beds": null,
+    "unit": "beds unknown",
+    "bednote": "Exact capacity for the long-term program remains unverified",
+    "cost": "Long-term page lists no out-of-pocket treatment, room or board charges; work required.",
+    "residency": "Individual screening; out-of-state rules are not stated in the reviewed pages.",
+    "stay": "Website gives conflicting lengths. Confirm the current commitment with admissions.",
+    "warning": "Ask for the long-term Recovery Community. The separate 28-day Serenity program has different costs.",
+    "phones": [
+      [
+        "Admissions",
+        "303-321-2533"
+      ]
+    ],
+    "website": "https://www.stoutstreet.org/long-term-treatment",
+    "details": [
+      [
+        "Bed count",
+        "A current exact bed count for the long-term program was not established. The organization's profile describes more than 100 residents, which is not an exact capacity inventory. Annual clients and short-term Serenity beds are excluded."
+      ],
+      [
+        "Program length: confirmation needed",
+        "The dedicated long-term page says <strong>2-3 years</strong>, with <strong>30-day orientation + 17-month Phase 1 + six-month aftercare</strong>. The cost-of-care page calls it two years. The homepage instead advertises <strong>up to one year / 12 months</strong>. The pages do not explain the difference. Obtain the current required length directly from admissions."
+      ],
+      [
+        "Costs, work and healthcare",
+        "The dedicated long-term page includes treatment, room and board with no out-of-pocket financial commitment and describes at least a 40-hour workweek. The homepage uses the narrower phrase no up-front costs. Confirm all phases and charges. Ask about medication compatibility, withdrawal care, eligibility and the separate insurance/self-pay Serenity program."
+      ]
+    ],
+    "sources": [
+      [
+        "Long-term treatment: costs, phases and work requirement",
+        "https://www.stoutstreet.org/long-term-treatment"
+      ],
+      [
+        "Cost-of-care page: two-year description and Serenity distinction",
+        "https://www.stoutstreet.org/cost-of-care"
+      ],
+      [
+        "Homepage: conflicting one-year duration and no-up-front-cost wording",
+        "https://www.stoutstreet.org/"
+      ],
+      [
+        "Organization profile: resident count, not an exact bed inventory",
+        "https://www.coloradogives.org/organization/stoutstreet"
+      ]
+    ],
+    "flyer_name": "Stout Street Foundation",
+    "flyer_meta": "Commerce City, CO | Adults 18+ | Bed count unverified",
+    "flyer_summary": "Long-term page includes treatment, room and board at no out-of-pocket cost; work required.",
+    "flyer_rules": "Website conflicts on length. Confirm duration and out-of-state intake; ask for long-term care."
+  },
+  {
+    "id": "caritas",
+    "section": "national",
+    "name": "CARITAS - The Healing Place",
+    "location": "Richmond, Virginia",
+    "people": "Men and women | Peer-led residential recovery",
+    "beds": 225,
+    "unit": "beds*",
+    "bednote": "225 in the current FAQ; older 2023 source totals 338. Current total unresolved.",
+    "cost": "Free residential recovery; insurance not required or billed.",
+    "residency": "Applicants may come from any state; admission screening still applies.",
+    "stay": "Self-paced; education component typically 6-8 months, followed by workforce preparation.",
+    "warning": "*225 is the operator FAQ figure used for sorting. Confirm current capacity and an available place.",
+    "phones": [
+      [
+        "Men",
+        "804-230-1184"
+      ],
+      [
+        "Women",
+        "804-418-3049"
+      ]
+    ],
+    "website": "https://caritasva.org/the-healing-place/",
+    "details": [
+      [
+        "Bed-count conflict",
+        "The current operator FAQ lists <strong>225 residential recovery beds</strong>. A CARITAS presentation in Virginia's <strong>2023</strong> Abatement Academy lists <strong>196 men's + 142 women's recovery beds = 338</strong> on slide 16, separate from 64 emergency-shelter beds. A 2026 reopening announcement for the men's campus gives no new count. The discrepancy remains unresolved. The FAQ's 225 is a labeled sorting figure, not a verified current inventory."
+      ],
+      [
+        "Cost and admission",
+        "The Healing Place recovery program is free and does not bill private insurance or Medicaid. The operator explicitly permits applicants from anywhere. Contact the appropriate intake number. Separate emergency shelters and Recovery Residences apartments have different eligibility or cost arrangements."
+      ],
+      [
+        "Stay and medical services",
+        "The education component commonly takes 6-8 months, followed by a six-week workforce component; the whole stay can differ. The program advertises access to on-site medical, behavioral-health and opioid-use-disorder medication services. Confirm the exact prescription and intake needs before travel."
+      ]
+    ],
+    "sources": [
+      [
+        "Current FAQ: 225 beds, cost and geographic eligibility",
+        "https://caritasva.org/who-we-are/"
+      ],
+      [
+        "Recovery program, intake phones and health services",
+        "https://caritasva.org/the-healing-place/"
+      ],
+      [
+        "CARITAS 2023 presentation, slide 16: historical 338 total (PDF)",
+        "https://www.oaa.virginia.gov/media/governorvirginiagov/oaa/pdf/CARITAS_OAA-2023-Abatement-Academy-_-2023-0525.pdf#page=16"
+      ],
+      [
+        "2026 men's-campus reopening; no new capacity figure",
+        "https://caritasva.org/a-new-chapter-of-hope-celebrating-the-grand-reopening-of-the-healing-place-for-men/"
+      ]
+    ],
+    "flyer_name": "CARITAS - The Healing Place",
+    "flyer_meta": "Richmond, VA | Men and women | 225 published beds; sources conflict",
+    "flyer_summary": "Free peer-led residential recovery; no insurance required. Applicants from any state may apply.",
+    "flyer_rules": "Call intake to confirm current capacity, admission and medication needs."
+  },
+  {
+    "id": "delancey",
+    "section": "national",
+    "name": "Delancey Street",
+    "location": "San Francisco campus, California",
+    "people": "Adults | Residential education and work community",
+    "beds": 500,
+    "unit": "design places",
+    "bednote": "500-person housing design capacity; San Francisco campus only",
+    "cost": "No entry fee; 50% of outside earnings covers costs in the final three months.",
+    "residency": "No geographic restriction; acceptance is subject to screening.",
+    "stay": "Minimum two years; internal work is unpaid.",
+    "warning": "Published psychiatric-medication and dual-diagnosis exclusions; no professional clinical counseling.",
+    "phones": [
+      [
+        "San Francisco",
+        "415-957-9800"
+      ]
+    ],
+    "website": "https://www.delanceystreetfoundation.org/admission.php",
+    "details": [
+      [
+        "Bed count",
+        "The operator describes its San Francisco complex as housing designed for <strong>500 people</strong>. This is design capacity, not a current staffed-bed or vacancy inventory. Other campuses are excluded."
+      ],
+      [
+        "Cost and commitment",
+        "Minimum two years. Internal work is unpaid and supports the community. During the final three months before graduation, residents work outside: half of each paycheck is saved for their transition and half covers room, board and related program costs."
+      ],
+      [
+        "Medical fit and age",
+        "The operator describes resident ages as 18-68; this is not presented as a firm age cutoff. It excludes dual-diagnosis applicants and people requiring psychiatric medication and says it does not provide professional counseling. Do not stop prescribed care to qualify; discuss compatible placements with your prescriber."
+      ]
+    ],
+    "sources": [
+      [
+        "Admissions: geography, commitment, earnings and exclusions",
+        "https://www.delanceystreetfoundation.org/admission.php"
+      ],
+      [
+        "San Francisco: 500-person housing design",
+        "https://www.delanceystreetfoundation.org/facsf.php"
+      ],
+      [
+        "Official program contact",
+        "https://www.delanceystreetfoundation.org/contact.php"
+      ]
+    ],
+    "flyer_name": "Delancey Street - San Francisco",
+    "flyer_meta": "San Francisco, CA | Adults | Housing designed for 500",
+    "flyer_summary": "Work and education; no entry fee. Final 3 months: 50% of outside pay covers program costs.",
+    "flyer_rules": "No geographic restriction; two-year minimum. Psychiatric-medication exclusions."
+  },
+  {
+    "id": "trosa",
+    "section": "national",
+    "name": "TROSA",
+    "location": "Durham and Winston-Salem, North Carolina",
+    "people": "Adults 18+ | Residential substance-use treatment",
+    "beds": null,
+    "unit": "beds unknown",
+    "bednote": "Current total unverified; historical 275 describes one Durham campus",
+    "cost": "Residential treatment and essential needs are free; no insurance required.",
+    "residency": "Applicants from any state may apply; phone interview and acceptance required.",
+    "stay": "Designed as a two-year program.",
+    "warning": "Not a detox facility. Medication acceptance depends on the prescribed drug and formulation.",
+    "phones": [
+      [
+        "Admissions",
+        "833-408-7672"
+      ],
+      [
+        "Local admissions",
+        "919-419-1059"
+      ]
+    ],
+    "website": "https://trosainc.org/admissions/",
+    "details": [
+      [
+        "Bed count",
+        "The earlier <strong>275</strong> figure describes 1820 James Street in a page discussing a <strong>2022</strong> expansion permit and expected 2024 completion. It does not establish today's total across Durham and Winston-Salem. A daily service population and a separate expansion maximum are not added together or substituted for current capacity. The current bed total remains unverified."
+      ],
+      [
+        "Cost and admission",
+        "The residential program provides housing, food, clothing and treatment free of charge. No insurance or outside referral is required. Applicants must contact admissions themselves for an interview and medical, psychiatric and legal screening. Arrange travel only after acceptance. Separate continuing-care housing for graduates is described as low cost."
+      ],
+      [
+        "Medication and participation",
+        "TROSA is not a detox facility. Its current FAQ explicitly supports some medications for opioid-use disorder, including naltrexone and certain long-acting injectable formulations. Confirm your exact prescription and formulation rather than assuming every medicine is accepted. The program includes structured work/community assignments and limited family contact early in the stay."
+      ]
+    ],
+    "sources": [
+      [
+        "Admissions: contact numbers, age, duration and screening",
+        "https://trosainc.org/admissions/"
+      ],
+      [
+        "FAQ: cost, nationwide intake, medication support and detox limit",
+        "https://trosainc.org/frequently-asked-questions/"
+      ],
+      [
+        "Historical campus-expansion page containing 275",
+        "https://trosainc.org/campus-enhancements/"
+      ],
+      [
+        "Current services and separate graduate housing",
+        "https://trosainc.org/program-services/"
+      ]
+    ],
+    "flyer_name": "TROSA",
+    "flyer_meta": "Durham / Winston-Salem, NC | Adults 18+ | Bed count unverified",
+    "flyer_summary": "Free two-year residential treatment with housing, meals and clothing; no insurance required.",
+    "flyer_rules": "Applicants from any state may apply. Phone interview first; not a detox facility."
+  },
+  {
+    "id": "mission-teens",
+    "section": "network",
+    "name": "Mission Teens",
+    "location": "Multiple states; center-specific admissions",
+    "people": "Adults 18+ | Christian discipleship and residential recovery",
+    "beds": null,
+    "unit": "varies by site",
+    "bednote": "National network; individual center capacity varies",
+    "cost": "No service fee; medical expenses, tests and possible return-travel funds are extra.",
+    "residency": "Adults may apply to any center; the selected center handles screening and availability.",
+    "stay": "Four phases, each described as about 2-4 months.",
+    "warning": "Extensive Bible study and published medication restrictions. Confirm all prescriptions before applying.",
+    "phones": [
+      [
+        "Administrative office",
+        "856-782-7771"
+      ]
+    ],
+    "website": "https://www.missionteens.com/locations",
+    "details": [
+      [
+        "Admissions and expenses",
+        "Apply to the chosen center's overseer. A phone interview and bed availability matter. The administrative-office number is not a universal intake line. The operator charges no service fee, but residents are responsible for medical costs; pre-admission tests and a return ticket or equivalent may be required."
+      ],
+      [
+        "Program and medications",
+        "The program has four phases, generally 2-4 months each, and a Christian/Bible-study focus. Published rules generally allow only non-addictive/non-narcotic medicines. Confirm medication compatibility and any testing requirements directly with the center. No verified center-by-center bed inventory was found."
+      ]
+    ],
+    "sources": [
+      [
+        "Program, age, any-center application, expenses and medication rules",
+        "https://www.missionteens.com/program"
+      ],
+      [
+        "Official center contacts and administrative office",
+        "https://www.missionteens.com/locations"
+      ]
+    ],
+    "flyer_name": "Mission Teens - national network",
+    "flyer_meta": "Multiple states | Adults 18+ | Beds vary by center",
+    "flyer_summary": "No service fee; residents pay medical expenses. Christian program with extensive Bible study.",
+    "flyer_rules": "May apply to any center; medication limits and screening apply. Contact the chosen center."
+  },
+  {
+    "id": "salvation-army",
+    "section": "network",
+    "name": "Salvation Army Adult Rehabilitation Centers",
+    "location": "National network; local rules vary",
+    "people": "Age 21-65 guideline; local exceptions and populations vary",
+    "beds": null,
+    "unit": "varies by site",
+    "bednote": "Separate centers; no single capacity or universal admission rule",
+    "cost": "Generally free; eligible government benefits may help cover room, board and clothing.",
+    "residency": "Ask the specific center about out-of-state applicants and local admission rules.",
+    "stay": "National program description: 180 days.",
+    "warning": "Work therapy and worship are part of the program. Confirm local medication rules.",
+    "phones": [],
+    "website": "https://gethelp.salvationarmyusa.org/",
+    "details": [
+      [
+        "Costs and work",
+        "The national FAQ describes generally free 180-day residential programming. It also states that some qualifying government-provided benefits may offset room, board and clothing. Participants are not employees and are not paid wages for work therapy. Ask for the center's written financial terms."
+      ],
+      [
+        "Eligibility and local variation",
+        "The national recovery page generally lists ages 21-65, with local variation. Confirm medication compatibility, medical readiness, out-of-state intake, required participation and personal expenses. A national network does not mean automatic eligibility at every center."
+      ]
+    ],
+    "sources": [
+      [
+        "National recovery program and eligibility guidance",
+        "https://www.salvationarmyusa.org/recovery/"
+      ],
+      [
+        "National ARC FAQ: benefits contribution, work therapy and duration",
+        "https://www.salvationarmyusa.org/recovery/arc-faqs/"
+      ],
+      [
+        "Official center locator",
+        "https://gethelp.salvationarmyusa.org/"
+      ]
+    ],
+    "flyer_name": "Salvation Army Adult Rehabilitation Centers",
+    "flyer_meta": "National network | Usually ages 21-65 | Beds vary by center",
+    "flyer_summary": "Generally free 180-day program; government-benefit contributions may apply.",
+    "flyer_rules": "Work therapy and worship required. Confirm the center's residency and medication rules."
+  }
+]

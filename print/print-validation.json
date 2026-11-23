@@ -1,0 +1,160 @@
+{
+  "pass": true,
+  "rendered_qr_instances_checked": 16,
+  "pages": {
+    "overview": 1,
+    "recovery": 2,
+    "packet": 3
+  },
+  "publication_status": "pending",
+  "validation": [
+    {
+      "file": "SNC_Unhoused_Resources_Flyer.pdf",
+      "page": 1,
+      "label": "Local offline phonebook",
+      "expected": "https://falloutmule.github.io/snc-unhoused-resources/phonebook/",
+      "decoded": "https://falloutmule.github.io/snc-unhoused-resources/phonebook/",
+      "dpi": 180,
+      "pass": true
+    },
+    {
+      "file": "SNC_Unhoused_Resources_Flyer.pdf",
+      "page": 1,
+      "label": "Recovery program directory",
+      "expected": "https://falloutmule.github.io/snc-unhoused-resources/recovery/",
+      "decoded": "https://falloutmule.github.io/snc-unhoused-resources/recovery/",
+      "dpi": 180,
+      "pass": true
+    },
+    {
+      "file": "SNC_Recovery_Programs.pdf",
+      "page": 1,
+      "label": "step-denver",
+      "expected": "https://stepdenver.org/apply/",
+      "decoded": "https://stepdenver.org/apply/",
+      "dpi": 180,
+      "pass": true
+    },
+    {
+      "file": "SNC_Recovery_Programs.pdf",
+      "page": 1,
+      "label": "sage-ridge",
+      "expected": "https://www.coloradocoalition.org/sageridge",
+      "decoded": "https://www.coloradocoalition.org/sageridge",
+      "dpi": 180,
+      "pass": true
+    },
+    {
+      "file": "SNC_Recovery_Programs.pdf",
+      "page": 1,
+      "label": "fort-lyon",
+      "expected": "https://www.coloradocoalition.org/fortlyonreferral",
+      "decoded": "https://www.coloradocoalition.org/fortlyonreferral",
+      "dpi": 180,
+      "pass": true
+    },
+    {
+      "file": "SNC_Recovery_Programs.pdf",
+      "page": 1,
+      "label": "other-side-denver",
+      "expected": "https://www.theothersideacademy.com/how-to-apply",
+      "decoded": "https://www.theothersideacademy.com/how-to-apply",
+      "dpi": 180,
+      "pass": true
+    },
+    {
+      "file": "SNC_Recovery_Programs.pdf",
+      "page": 1,
+      "label": "stout-street",
+      "expected": "https://www.stoutstreet.org/long-term-treatment",
+      "decoded": "https://www.stoutstreet.org/long-term-treatment",
+      "dpi": 180,
+      "pass": true
+    },
+    {
+      "file": "SNC_Recovery_Programs.pdf",
+      "page": 1,
+      "label": "Full recovery guide",
+      "expected": "https://falloutmule.github.io/snc-unhoused-resources/recovery/",
+      "decoded": "https://falloutmule.github.io/snc-unhoused-resources/recovery/",
+      "dpi": 180,
+      "pass": true
+    },
+    {
+      "file": "SNC_Recovery_Programs.pdf",
+      "page": 1,
+      "label": "GJ offline phonebook",
+      "expected": "https://falloutmule.github.io/snc-unhoused-resources/phonebook/",
+      "decoded": "https://falloutmule.github.io/snc-unhoused-resources/phonebook/",
+      "dpi": 180,
+      "pass": true
+    },
+    {
+      "file": "SNC_Recovery_Programs.pdf",
+      "page": 2,
+      "label": "caritas",
+      "expected": "https://caritasva.org/the-healing-place/",
+      "decoded": "https://caritasva.org/the-healing-place/",
+      "dpi": 180,
+      "pass": true
+    },
+    {
+      "file": "SNC_Recovery_Programs.pdf",
+      "page": 2,
+      "label": "delancey",
+      "expected": "https://www.delanceystreetfoundation.org/admission.php",
+      "decoded": "https://www.delanceystreetfoundation.org/admission.php",
+      "dpi": 180,
+      "pass": true
+    },
+    {
+      "file": "SNC_Recovery_Programs.pdf",
+      "page": 2,
+      "label": "trosa",
+      "expected": "https://trosainc.org/admissions/",
+      "decoded": "https://trosainc.org/admissions/",
+      "dpi": 180,
+      "pass": true
+    },
+    {
+      "file": "SNC_Recovery_Programs.pdf",
+      "page": 2,
+      "label": "mission-teens",
+      "expected": "https://www.missionteens.com/locations",
+      "decoded": "https://www.missionteens.com/locations",
+      "dpi": 180,
+      "pass": true
+    },
+    {
+      "file": "SNC_Recovery_Programs.pdf",
+      "page": 2,
+      "label": "salvation-army",
+      "expected": "https://gethelp.salvationarmyusa.org/",
+      "decoded": "https://gethelp.salvationarmyusa.org/",
+      "dpi": 180,
+      "pass": true
+    },
+    {
+      "file": "SNC_Recovery_Programs.pdf",
+      "page": 2,
+      "label": "Full recovery guide",
+      "expected": "https://falloutmule.github.io/snc-unhoused-resources/recovery/",
+      "decoded": "https://falloutmule.github.io/snc-unhoused-resources/recovery/",
+      "dpi": 180,
+      "pass": true
+    },
+    {
+      "file": "SNC_Recovery_Programs.pdf",
+      "page": 2,
+      "label": "GJ offline phonebook",
+      "expected": "https://falloutmule.github.io/snc-unhoused-resources/phonebook/",
+      "decoded": "https://falloutmule.github.io/snc-unhoused-resources/phonebook/",
+      "dpi": 180,
+      "pass": true
+    }
+  ],
+  "limits": [
+    "No live-URL availability test in this script.",
+    "No physical print or phone-camera test."
+  ]
+}

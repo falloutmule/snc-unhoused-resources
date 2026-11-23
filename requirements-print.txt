@@ -1,0 +1,3 @@
+# Versions used for the checked November 20, 2026 print edition.
+reportlab==4.4.9
+pypdf==6.21.4

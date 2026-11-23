@@ -1,0 +1,34 @@
+name: Suggest a resource
+description: Suggest a local service or recovery program to add.
+title: "Addition: "
+body:
+  - type: markdown
+    attributes:
+      value: "Corrections and additions are welcome. Please provide public program information, not private client details."
+  - type: input
+    id: resource
+    attributes:
+      label: Resource name and location
+    validations:
+      required: true
+  - type: textarea
+    id: services
+    attributes:
+      label: Services, eligibility and costs
+      description: Who is eligible? Is a referral needed? Is it local-only, Colorado-only or open to out-of-state applicants? Describe any later fees or contributions.
+    validations:
+      required: true
+  - type: textarea
+    id: contact
+    attributes:
+      label: Public contact details
+      description: Official website, phone, address or service area, and hours if known.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Sources and date checked
+      description: Link an official page or public flyer, or give the date and method of direct confirmation.
+    validations:
+      required: true

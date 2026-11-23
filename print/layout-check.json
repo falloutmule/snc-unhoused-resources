@@ -1,0 +1,70 @@
+[
+  {
+    "section": "Local offline phonebook",
+    "clearance_pt": 42.4
+  },
+  {
+    "section": "Recovery program directory",
+    "clearance_pt": 11.8
+  },
+  {
+    "id": "step-denver",
+    "bottom_clearance_pt": 19.7,
+    "text_right": 475,
+    "qr_left": 493
+  },
+  {
+    "id": "sage-ridge",
+    "bottom_clearance_pt": 19.7,
+    "text_right": 475,
+    "qr_left": 493
+  },
+  {
+    "id": "fort-lyon",
+    "bottom_clearance_pt": 8.2,
+    "text_right": 475,
+    "qr_left": 493
+  },
+  {
+    "id": "other-side-denver",
+    "bottom_clearance_pt": 19.7,
+    "text_right": 475,
+    "qr_left": 493
+  },
+  {
+    "id": "stout-street",
+    "bottom_clearance_pt": 19.7,
+    "text_right": 475,
+    "qr_left": 493
+  },
+  {
+    "id": "caritas",
+    "bottom_clearance_pt": 8.2,
+    "text_right": 475,
+    "qr_left": 493
+  },
+  {
+    "id": "delancey",
+    "bottom_clearance_pt": 19.7,
+    "text_right": 475,
+    "qr_left": 493
+  },
+  {
+    "id": "trosa",
+    "bottom_clearance_pt": 19.7,
+    "text_right": 475,
+    "qr_left": 493
+  },
+  {
+    "id": "mission-teens",
+    "bottom_clearance_pt": 19.7,
+    "text_right": 475,
+    "qr_left": 493
+  },
+  {
+    "id": "salvation-army",
+    "bottom_clearance_pt": 19.7,
+    "text_right": 475,
+    "qr_left": 493
+  }
+]

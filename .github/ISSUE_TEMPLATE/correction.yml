@@ -1,0 +1,33 @@
+name: Correct a resource
+description: Report a changed phone number, address, hours, cost, eligibility rule or other detail.
+title: "Correction: "
+body:
+  - type: markdown
+    attributes:
+      value: "Thank you for helping keep SNC Unhoused Resources useful. Please use public program information and do not include personal client or medical details."
+  - type: input
+    id: resource
+    attributes:
+      label: Resource and location
+      placeholder: Program name, city, and directory page or entry
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: What should change?
+      description: Include the existing detail and the corrected detail when possible.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Source and date checked
+      description: Link an official page or public flyer, or describe when and how you confirmed it directly. Include conflicting sources if relevant.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Anything else to know?
+      description: For beds, distinguish total capacity from current openings. For free services, mention later costs or benefit contributions.

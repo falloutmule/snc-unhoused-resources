@@ -1,0 +1,13 @@
+{
+  "base_url": "https://falloutmule.github.io/snc-unhoused-resources/",
+  "repository_url": "https://github.com/falloutmule/snc-unhoused-resources",
+  "publication_status": "pending",
+  "source_review_date": "2026-11-19",
+  "print_edition_date": "2026-11-20",
+  "files": [
+    "SNC_Unhoused_Resources_Flyer.pdf",
+    "SNC_Recovery_Programs.pdf",
+    "SNC_Unhoused_Resources_Print_Packet.pdf"
+  ],
+  "qr_instances": 16
+}

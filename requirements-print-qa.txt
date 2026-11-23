@@ -1,0 +1,4 @@
+-r requirements-print.txt
+PyMuPDF==1.26.6
+Pillow==13.0.0
+zxing-cpp==3.1.1
