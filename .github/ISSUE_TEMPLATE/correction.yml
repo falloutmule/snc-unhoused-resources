@@ -4,7 +4,7 @@ title: "Correction: "
 body:
   - type: markdown
     attributes:
-      value: "Thank you for helping keep SNC Unhoused Resources useful. Please use public program information and do not include personal client or medical details."
+      value: "Thank you for helping keep Mesa County Unhoused Resources useful. Please use public program information and do not include personal client or medical details."
   - type: input
     id: resource
     attributes:

@@ -87,7 +87,7 @@ if args.live:
         if local.is_dir(): local = local / 'index.html'
         url = urljoin(base, relative)
         try:
-            request = Request(url + '?verify=' + str(int(time.time())), headers={'User-Agent':'SNC-resource-publication-check/1.0','Cache-Control':'no-cache'})
+            request = Request(url + '?verify=' + str(int(time.time())), headers={'User-Agent':'Mesa-County-resource-publication-check/1.0','Cache-Control':'no-cache'})
             with urlopen(request, timeout=30) as response:
                 content = response.read()
                 if response.status != 200: raise ValueError('HTTP ' + str(response.status))

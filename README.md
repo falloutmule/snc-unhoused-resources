@@ -1,16 +1,16 @@
-# SNC Unhoused Resources
+# Mesa County Unhoused Resources
 
 Practical, source-linked resources for people experiencing homelessness or housing instability, and for neighbors and volunteers helping them find support.
 
-**Publication status: published; verify the live routes after every deployment.** This package was prepared November 20, 2026. The source review was completed November 19, 2026; individual phonebook entries retain the date and scope of their checks.
+**Publication status: prepared for deployment; the new public repository and GitHub Pages URLs have not been verified.** The Mesa County edition was prepared November 28, 2026. The source review was completed November 19, 2026. Individual phonebook entries retain the date and scope of their checks.
 
 ## Resources
 
-| Resource | What it includes | Public address |
+| Resource | What it includes | Planned public address |
 | --- | --- | --- |
-| Resource home | A simple starting page with links, offline files, printables and ways to suggest updates. | https://falloutmule.github.io/snc-unhoused-resources/ |
-| Grand Junction offline phonebook | 58 entries covering Grand Junction and immediately relevant Mesa County services: basic needs, shelter, food, health care, transportation, benefits, legal help and more. Search and categories, Call or Text actions where supported, source links and Print all. | https://falloutmule.github.io/snc-unhoused-resources/phonebook/ |
-| Recovery programs | 5 Colorado options, 3 national programs and 2 national networks. Summaries, cost exceptions, residency rules, contact numbers, sources and published capacity information. Colorado comes first; published figures run smallest to largest, with unknown totals afterward. | https://falloutmule.github.io/snc-unhoused-resources/recovery/ |
+| Resource home | A simple starting page with links, offline files, printables and ways to suggest updates. | https://falloutmule.github.io/mesa-county-unhoused-resources/ |
+| Grand Junction offline phonebook | 58 entries covering Grand Junction and immediately relevant Mesa County services: basic needs, shelter, food, health care, transportation, benefits, legal help and more. Search and categories, Call or Text actions where supported, source links and Print all. | https://falloutmule.github.io/mesa-county-unhoused-resources/phonebook/ |
+| Recovery programs | 5 Colorado options, 3 national programs and 2 national networks. Summaries, cost exceptions, residency rules, contact numbers, sources and published capacity information. Colorado comes first; published figures run smallest to largest, with unknown totals afterward. | https://falloutmule.github.io/mesa-county-unhoused-resources/recovery/ |
 
 The national section is a focused shortlist. It is not a complete national directory or a promise that every applicant qualifies. Capacity figures describe the source's stated scope and **do not show current openings**. Free-entry programs can have later costs or benefit contributions.
 
@@ -18,11 +18,11 @@ The national section is a focused shortlist. It is not a complete national direc
 
 The `print/` folder contains US Letter PDFs:
 
-- **SNC_Unhoused_Resources_Flyer.pdf:** one-page introduction with a summary and QR code for each resource page.
-- **SNC_Recovery_Programs.pdf:** two-page program list with summaries, phone contacts and individual program website QR codes.
-- **SNC_Unhoused_Resources_Print_Packet.pdf:** both documents together.
+- One-page introduction with a summary and QR code for each resource page. [Resource overview flyer](print/Mesa_County_Unhoused_Resources_Flyer.pdf)
+- Two-page program list with summaries, phone contacts and individual program website QR codes. [Recovery program list](print/Mesa_County_Recovery_Programs.pdf)
+- All three pages together for printing. [Complete print packet](print/Mesa_County_Unhoused_Resources_Print_Packet.pdf)
 
-The resource-page QR codes use the addresses above. Program website QR codes point directly to the listed operators. Verify the live routes and scan the regenerated printables after every URL change.
+The resource-page QR codes use the planned addresses above. **Do not distribute them as live links until GitHub Pages is deployed and checked.** Program website QR codes point directly to the listed operators. The draft printables carry a publication-pending notice; the handoff explains how to regenerate them after deployment.
 
 ## Keep a copy offline
 
@@ -33,7 +33,7 @@ The resource-page QR codes use the addresses above. Program website QR codes poi
 
 ## Corrections and additions are welcome
 
-To suggest a correction or addition, submit a pull request, give the information to the person who shared the resource, or [open an issue using the correction or addition form](https://github.com/falloutmule/snc-unhoused-resources/issues/new/choose).
+To suggest a correction or addition, submit a pull request, give the information to the person who shared the resource, or [open an issue using the correction or addition form](https://github.com/falloutmule/mesa-county-unhoused-resources/issues/new/choose).
 
 Include:
 
@@ -73,6 +73,6 @@ For local review without a server, open either standalone HTML file in `download
 
 ## Publishing and maintenance
 
-GitHub Pages serves the root of `main` in `falloutmule/snc-unhoused-resources`. Keep this project separate from the existing game repository and its draft PR #39. Follow the [deployment and verification instructions](CODEX_HANDOFF.md).
+GitHub Pages serves the root of `main` in `falloutmule/mesa-county-unhoused-resources`. Keep this project separate from the existing game repository and its draft PR #39. Follow the [deployment and verification instructions](CODEX_HANDOFF.md).
 
 If the repository name or owner changes, run the configuration script and regenerate the printables before sharing any QR codes. Do not change the source-review date just because the files were repackaged.

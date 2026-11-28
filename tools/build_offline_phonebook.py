@@ -11,7 +11,7 @@ import re
 ROOT = Path(__file__).resolve().parent.parent
 parser = argparse.ArgumentParser()
 parser.add_argument('--source', type=Path, default=ROOT / 'phonebook')
-parser.add_argument('--output', type=Path, default=ROOT / 'downloads' / 'SNC_Grand_Junction_Offline_Phonebook.html')
+parser.add_argument('--output', type=Path, default=ROOT / 'downloads' / 'Mesa_County_Grand_Junction_Offline_Phonebook.html')
 args = parser.parse_args()
 source_dir = args.source.resolve()
 html = (source_dir / 'index.html').read_text(encoding='utf-8')

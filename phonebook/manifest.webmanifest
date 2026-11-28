@@ -1,6 +1,6 @@
 {
-  "name": "SNC Unhoused Resources - Grand Junction Phonebook",
-  "short_name": "SNC Resources",
+  "name": "Mesa County Unhoused Resources - Grand Junction Phonebook",
+  "short_name": "Mesa County",
   "description": "Offline-first Grand Junction and Mesa County resource phonebook for people experiencing homelessness or housing instability.",
   "id": "../",
   "start_url": "./",

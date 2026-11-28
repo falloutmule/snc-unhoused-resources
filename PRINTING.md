@@ -3,13 +3,13 @@
 The three PDFs in `print/` are US Letter documents with selectable text,
 embedded fonts, clickable links, and vector QR codes:
 
-- `SNC_Unhoused_Resources_Flyer.pdf`: one-page overview of the local phonebook
+- `Mesa_County_Unhoused_Resources_Flyer.pdf`: one-page overview of the local phonebook
   and recovery guide, with a summary and QR code for each.
-- `SNC_Recovery_Programs.pdf`: two-page list of ten recovery programs and
+- `Mesa_County_Recovery_Programs.pdf`: two-page list of ten recovery programs and
   networks. Each entry has a summary, contact information, eligibility/cost
   notes, published capacity information, and a QR code to its provider website.
   Both resource directories are linked by QR on each page.
-- `SNC_Unhoused_Resources_Print_Packet.pdf`: the overview followed by both
+- `Mesa_County_Unhoused_Resources_Print_Packet.pdf`: the overview followed by both
   recovery pages, combined for convenient printing.
 
 ## Print edition
@@ -20,7 +20,7 @@ in `print/build-info.json` identifies the edition. A proof build is marked
 `pending` and carries a visible notice on every page.
 
 The provider-information review date is November 19, 2026. The packaging date
-is November 20, 2026. Rebuilding or publishing a PDF does not perform a new
+for the Mesa County edition is November 28, 2026. Rebuilding or publishing a PDF does not perform a new
 provider review; do not advance `review_date` without doing that work.
 
 ## Rebuild

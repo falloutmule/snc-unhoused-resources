@@ -1,6 +1,6 @@
 # Corrections and additions
 
-Thank you for helping maintain SNC Unhoused Resources. Corrections, new resources and clearer wording are welcome through [GitHub Issues](https://github.com/falloutmule/snc-unhoused-resources/issues/new/choose) or a pull request.
+Thank you for helping maintain Mesa County Unhoused Resources. Corrections, new resources and clearer wording are welcome through [GitHub Issues](https://github.com/falloutmule/mesa-county-unhoused-resources/issues/new/choose) or a pull request.
 
 ## A useful report
 

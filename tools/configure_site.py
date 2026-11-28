@@ -105,7 +105,7 @@ core_paths = [ROOT/'index.html', ROOT/'recovery/index.html', worker_path] + sort
 digest = hashlib.sha256()
 for path in core_paths:
     if not path.is_file(): continue
-    text = path.read_text(encoding='utf-8').replace(current_cache, '__SNC_CACHE__')
+    text = path.read_text(encoding='utf-8').replace(current_cache, '__PROJECT_CACHE__')
     if path == worker_path:
         text = re.sub(r"const CACHE = CACHE_PREFIX \+ '[^']+'", "const CACHE = CACHE_PREFIX + '__VERSION__'", text)
     digest.update(path.relative_to(ROOT).as_posix().encode('utf-8') + b'\0' + text.encode('utf-8'))
@@ -121,7 +121,7 @@ subprocess.run([sys.executable, str(ROOT / 'tools' / 'build_offline_phonebook.py
 recovery = (ROOT / 'recovery' / 'index.html').read_text(encoding='utf-8')
 recovery = recovery.replace('<html lang="en">', '<html lang="en" data-offline-copy="true">')
 (ROOT / 'downloads').mkdir(exist_ok=True)
-(ROOT / 'downloads' / 'SNC_Recovery_Programs.html').write_bytes(recovery.encode('utf-8'))
+(ROOT / 'downloads' / 'Mesa_County_Recovery_Programs.html').write_bytes(recovery.encode('utf-8'))
 print('Configured:', base, '| repository:', repo, '| publication label:', status)
 print('Rebuilt phonebook sharing QR and both standalone HTML files. No remote writes were made.')
 print('Regenerate PDFs next: python3 tools/build_printables.py' + (' --published' if status == 'published' else ''))

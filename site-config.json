@@ -1,8 +1,8 @@
 {
-  "title": "SNC Unhoused Resources",
-  "repository": "falloutmule/snc-unhoused-resources",
-  "base_url": "https://falloutmule.github.io/snc-unhoused-resources/",
+  "title": "Mesa County Unhoused Resources",
+  "repository": "falloutmule/mesa-county-unhoused-resources",
+  "base_url": "https://falloutmule.github.io/mesa-county-unhoused-resources/",
   "review_date": "2026-11-19",
-  "package_date": "2026-11-20",
-  "publication_status": "published"
+  "package_date": "2026-11-28",
+  "publication_status": "pending"
 }

@@ -1,6 +1,6 @@
 'use strict';
-const CACHE_PREFIX = 'snc-unhoused-resources-';
-const CACHE = CACHE_PREFIX + 'v1-9df71d544d93';
+const CACHE_PREFIX = 'mesa-county-unhoused-resources-';
+const CACHE = CACHE_PREFIX + 'v1-046ea5d138cf';
 const APP_SHELL = [
   "./",
   "./index.html",

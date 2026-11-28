@@ -1,4 +1,4 @@
-"""Build SNC's resource overview, recovery directory, and three-page packet.
+"""Build the Mesa County resource overview, recovery directory, and three-page packet.
 
 Run --published only after both actual GitHub Pages URLs are checked.
 The source review date is deliberately separate from this packaging date.
@@ -34,14 +34,14 @@ args = parser.parse_args()
 CONFIG = json.loads(args.config.read_text(encoding='utf-8')) if args.config.exists() else {}
 OUT = args.output_dir
 OUT.mkdir(parents=True, exist_ok=True)
-BASE = (args.base_url or CONFIG.get('base_url', 'https://falloutmule.github.io/snc-unhoused-resources/')).rstrip('/') + '/'
+BASE = (args.base_url or CONFIG.get('base_url', 'https://falloutmule.github.io/mesa-county-unhoused-resources/')).rstrip('/') + '/'
 PHONEBOOK = BASE + 'phonebook/'
 RECOVERY = BASE + 'recovery/'
-REPO = args.repo_url or 'https://github.com/' + CONFIG.get('repository', 'falloutmule/snc-unhoused-resources')
+REPO = args.repo_url or 'https://github.com/' + CONFIG.get('repository', 'falloutmule/mesa-county-unhoused-resources')
 ISSUES = REPO.rstrip('/') + '/issues'
 LIVE = args.published
 REVIEW_DATE = CONFIG.get('review_date', '2026-11-19')
-PACKAGE_DATE = CONFIG.get('package_date', '2026-11-20')
+PACKAGE_DATE = CONFIG.get('package_date', '2026-11-28')
 REVIEW_SHORT = date.fromisoformat(REVIEW_DATE).strftime('%b %d, %Y').replace(' 0', ' ')
 PACKAGE_SHORT = date.fromisoformat(PACKAGE_DATE).strftime('%b %d, %Y').replace(' 0', ' ')
 ROWS = json.loads((ROOT / 'data/recovery-programs.json').read_text(encoding='utf-8'))
@@ -100,16 +100,16 @@ def printed_url(url):
 
 
 def make_overview():
-    filename = 'SNC_Unhoused_Resources_Flyer.pdf'
+    filename = 'Mesa_County_Unhoused_Resources_Flyer.pdf'
     c = canvas.Canvas(str(OUT / filename), pagesize=(612, 792), pageCompression=1)
-    c.setTitle('SNC Unhoused Resources - Two Community Directories')
-    c.setAuthor('SNC Unhoused Resources')
+    c.setTitle('Mesa County Unhoused Resources - Two Community Directories')
+    c.setAuthor('Mesa County Unhoused Resources')
     c.setSubject('Printable guide to the local offline phonebook and Colorado and national recovery directory.')
     c.setFillColor(teal)
     c.rect(30, 754, 43, 5, fill=1, stroke=0)
     c.setFont('Bold', 24)
     c.setFillColor(ink)
-    c.drawString(30, 722, 'SNC Unhoused Resources')
+    c.drawString(30, 722, 'Mesa County Unhoused Resources')
     para(c, 'Local help and recovery options, with information you can save.',
          30, 705, 552, 'intro', 18)
     para(c, 'Scan a code or type the address. Both directories are free to use.<br/>'
@@ -183,10 +183,10 @@ def make_overview():
 
 
 def make_recovery():
-    filename = 'SNC_Recovery_Programs.pdf'
+    filename = 'Mesa_County_Recovery_Programs.pdf'
     c = canvas.Canvas(str(OUT / filename), pagesize=(612, 792), pageCompression=1)
-    c.setTitle('SNC Unhoused Resources - Recovery Programs - Reviewed November 19, 2026')
-    c.setAuthor('SNC Unhoused Resources')
+    c.setTitle('Mesa County Unhoused Resources - Recovery Programs - Reviewed November 19, 2026')
+    c.setAuthor('Mesa County Unhoused Resources')
     c.setSubject('Ten recovery program summaries with official website QR codes, costs, residency and published capacity caveats.')
 
     def card(p, top, page):
@@ -250,7 +250,7 @@ def make_recovery():
     for page, (title, subtitle, items) in enumerate(pages, 1):
         c.setFillColor(teal)
         c.setFont('Bold', 9.3)
-        c.drawString(30, 764, 'SNC UNHOUSED RESOURCES')
+        c.drawString(30, 764, 'MESA COUNTY UNHOUSED RESOURCES')
         c.setFillColor(muted)
         c.setFont('Body', 8)
         c.drawRightString(582, 764, 'WEB REVIEW: ' + REVIEW_SHORT.upper() + '  |  ' + str(page) + '/2')
@@ -279,11 +279,11 @@ def make_recovery():
 
 overview = make_overview()
 recovery = make_recovery()
-packet = OUT / 'SNC_Unhoused_Resources_Print_Packet.pdf'
+packet = OUT / 'Mesa_County_Unhoused_Resources_Print_Packet.pdf'
 writer = PdfWriter()
 for source in [overview, recovery]:
     writer.append(PdfReader(source))
-writer.add_metadata({'/Title': 'SNC Unhoused Resources - Printable Resource Packet', '/Author': 'SNC Unhoused Resources'})
+writer.add_metadata({'/Title': 'Mesa County Unhoused Resources - Printable Resource Packet', '/Author': 'Mesa County Unhoused Resources'})
 with packet.open('wb') as stream:
     writer.write(stream)
 

@@ -1,34 +1,29 @@
-# Publish SNC Unhoused Resources
+# Publish Mesa County Unhoused Resources
 
-## Authorized goal
+## Publishing scope
 
-The user requested a separate public GitHub repository named **SNC Unhoused Resources**, easy GitHub Pages addresses for the local phonebook and recovery guide, a README summarizing both and inviting corrections/additions, and printable summaries with QR codes.
+**Mesa County Unhoused Resources** is a standalone public repository for the local phonebook, recovery guide, offline downloads and printable summaries with QR codes. The README links to both directories and invites corrections and additions.
 
 Publish this complete static package as its own repository. Do not merge draft PR #39 or change `falloutmule/solidarity-not-charity-can-run`; that older repository contains a separate game and the earlier resource copies.
 
-## Handoff snapshot from November 20, 2026
+## Editions and source review
 
-The notes below describe the package before publication. The README lists the
-public addresses and `print/build-info.json` records the current print edition.
+The original package was prepared November 20, 2026. The Mesa County edition was prepared November 28, 2026. The README lists the public addresses and `print/build-info.json` records the print edition. Resource QR codes open the directories. Program QR codes open the operators' websites.
 
-- Prepared November 20, 2026. Source review remains November 19, 2026; individual phonebook entries preserve the date and scope of their checks.
-- The connected GitHub tools could not create repositories or administer Pages. The CLI had no authenticated session, and GitHub's new-repository page required sign-in. The user explicitly authorized a ZIP for Codex as the fallback.
-- No new public repository or Pages deployment was created. On November 20, the two planned Pages routes returned HTTP 404. The repository lookup also returned 404; this does not prove the name is available or rule out an inaccessible private repository.
-- Default printables visibly say publication proof. Their resource QR codes point to the planned URLs below. Keep that label until the actual destination is deployed and checked. Program website QR codes point directly to operators.
-- Existing research uncertainties are deliberately visible. Do not invent beds, openings, admission permission, current hours or universal eligibility to make the package look complete.
+The source review is dated November 19, 2026. Individual phonebook entries record the date and scope of their checks. Preserve those dates and the qualifications about beds, openings, admission, hours and eligibility.
 
 ## Configuration and intended addresses
 
-`site-config.json` is the source of truth. Read it before issuing commands; the examples below use its initial values.
+`site-config.json` is the source of truth for the public addresses used below.
 
 | Item | Intended value |
 | --- | --- |
-| Public repository | `falloutmule/snc-unhoused-resources` |
+| Public repository | `falloutmule/mesa-county-unhoused-resources` |
 | Default branch | `main` |
 | Pages source | `main`, root `/` |
-| Home | https://falloutmule.github.io/snc-unhoused-resources/ |
-| Phonebook | https://falloutmule.github.io/snc-unhoused-resources/phonebook/ |
-| Recovery guide | https://falloutmule.github.io/snc-unhoused-resources/recovery/ |
+| Home | https://falloutmule.github.io/mesa-county-unhoused-resources/ |
+| Phonebook | https://falloutmule.github.io/mesa-county-unhoused-resources/phonebook/ |
+| Recovery guide | https://falloutmule.github.io/mesa-county-unhoused-resources/recovery/ |
 
 Keep the lower-case path spelling and trailing slashes. No custom domain or purchased URL is required. Do not silently choose another owner or repository name if these are unavailable; resolve the conflict with the user.
 
@@ -53,7 +48,7 @@ The configuration tool updates project URLs, generates the phonebook sharing QR,
 If any public path must change, update it with the configuration tool and rebuild all QR-bearing files:
 
 ```bash
-python3 tools/configure_site.py --base-url https://falloutmule.github.io/snc-unhoused-resources/ --repository falloutmule/snc-unhoused-resources
+python3 tools/configure_site.py --base-url https://falloutmule.github.io/mesa-county-unhoused-resources/ --repository falloutmule/mesa-county-unhoused-resources
 python3 tools/build_printables.py
 python3 tools/verify_site.py
 ```
@@ -67,7 +62,7 @@ Check the authenticated account and access first. Use the configured repository 
 ```bash
 gh auth status
 gh api user --jq .login
-gh repo view falloutmule/snc-unhoused-resources --json nameWithOwner,isPrivate,defaultBranchRef,url
+gh repo view falloutmule/mesa-county-unhoused-resources --json nameWithOwner,isPrivate,defaultBranchRef,url
 ```
 
 If it already exists, inspect its contents and history before adding anything. Do not overwrite unrelated work, force-push, or change an existing private repository to public without checking what it contains. The authorization is to publish this resource package.
@@ -77,14 +72,14 @@ If it does not exist and the authenticated owner is correct, initialize this pac
 ```bash
 git init -b main
 git add .
-git commit -m "Add SNC Unhoused Resources directories and printables"
-gh repo create falloutmule/snc-unhoused-resources --public --description "Grand Junction and Mesa County offline phonebook, recovery programs, and printable QR resource guides" --source=. --remote=origin --push
+git commit -m "Add Mesa County Unhoused Resources directories and printables"
+gh repo create falloutmule/mesa-county-unhoused-resources --public --description "Grand Junction and Mesa County offline phonebook, recovery programs, and printable QR resource guides" --source=. --remote=origin --push
 ```
 
 Verify visibility with `gh repo view` after creation. Enable Issues so the README's correction and addition forms work:
 
 ```bash
-gh repo edit falloutmule/snc-unhoused-resources --enable-issues
+gh repo edit falloutmule/mesa-county-unhoused-resources --enable-issues
 ```
 
 ## 3. Enable GitHub Pages explicitly
@@ -94,13 +89,13 @@ A public repository alone does not publish a website. Configure Pages to deploy 
 Check current configuration first:
 
 ```bash
-gh api repos/falloutmule/snc-unhoused-resources/pages
+gh api repos/falloutmule/mesa-county-unhoused-resources/pages
 ```
 
 If Pages is not configured, create it:
 
 ```bash
-gh api --method POST repos/falloutmule/snc-unhoused-resources/pages -f "source[branch]=main" -f "source[path]=/"
+gh api --method POST repos/falloutmule/mesa-county-unhoused-resources/pages -f "source[branch]=main" -f "source[path]=/"
 ```
 
 If Pages already exists with the wrong source, inspect it and use the matching update operation or Settings UI. Do not interpret an authorization failure as a request to create another repository.
@@ -108,8 +103,8 @@ If Pages already exists with the wrong source, inspect it and use the matching u
 Check the Pages build status and canonical HTML URL; wait for completion rather than claiming deployment immediately:
 
 ```bash
-gh api repos/falloutmule/snc-unhoused-resources/pages
-gh api repos/falloutmule/snc-unhoused-resources/pages/builds/latest
+gh api repos/falloutmule/mesa-county-unhoused-resources/pages
+gh api repos/falloutmule/mesa-county-unhoused-resources/pages/builds/latest
 ```
 
 ## 4. Prove the public routes work

@@ -6,28 +6,28 @@
     "recovery": 2,
     "packet": 3
   },
-  "publication_status": "published",
+  "publication_status": "pending",
   "validation": [
     {
-      "file": "SNC_Unhoused_Resources_Flyer.pdf",
+      "file": "Mesa_County_Unhoused_Resources_Flyer.pdf",
       "page": 1,
       "label": "Local offline phonebook",
-      "expected": "https://falloutmule.github.io/snc-unhoused-resources/phonebook/",
-      "decoded": "https://falloutmule.github.io/snc-unhoused-resources/phonebook/",
+      "expected": "https://falloutmule.github.io/mesa-county-unhoused-resources/phonebook/",
+      "decoded": "https://falloutmule.github.io/mesa-county-unhoused-resources/phonebook/",
       "dpi": 180,
       "pass": true
     },
     {
-      "file": "SNC_Unhoused_Resources_Flyer.pdf",
+      "file": "Mesa_County_Unhoused_Resources_Flyer.pdf",
       "page": 1,
       "label": "Recovery program directory",
-      "expected": "https://falloutmule.github.io/snc-unhoused-resources/recovery/",
-      "decoded": "https://falloutmule.github.io/snc-unhoused-resources/recovery/",
+      "expected": "https://falloutmule.github.io/mesa-county-unhoused-resources/recovery/",
+      "decoded": "https://falloutmule.github.io/mesa-county-unhoused-resources/recovery/",
       "dpi": 180,
       "pass": true
     },
     {
-      "file": "SNC_Recovery_Programs.pdf",
+      "file": "Mesa_County_Recovery_Programs.pdf",
       "page": 1,
       "label": "step-denver",
       "expected": "https://stepdenver.org/apply/",
@@ -36,7 +36,7 @@
       "pass": true
     },
     {
-      "file": "SNC_Recovery_Programs.pdf",
+      "file": "Mesa_County_Recovery_Programs.pdf",
       "page": 1,
       "label": "sage-ridge",
       "expected": "https://www.coloradocoalition.org/sageridge",
@@ -45,7 +45,7 @@
       "pass": true
     },
     {
-      "file": "SNC_Recovery_Programs.pdf",
+      "file": "Mesa_County_Recovery_Programs.pdf",
       "page": 1,
       "label": "fort-lyon",
       "expected": "https://www.coloradocoalition.org/fortlyonreferral",
@@ -54,7 +54,7 @@
       "pass": true
     },
     {
-      "file": "SNC_Recovery_Programs.pdf",
+      "file": "Mesa_County_Recovery_Programs.pdf",
       "page": 1,
       "label": "other-side-denver",
       "expected": "https://www.theothersideacademy.com/how-to-apply",
@@ -63,7 +63,7 @@
       "pass": true
     },
     {
-      "file": "SNC_Recovery_Programs.pdf",
+      "file": "Mesa_County_Recovery_Programs.pdf",
       "page": 1,
       "label": "stout-street",
       "expected": "https://www.stoutstreet.org/long-term-treatment",
@@ -72,25 +72,25 @@
       "pass": true
     },
     {
-      "file": "SNC_Recovery_Programs.pdf",
+      "file": "Mesa_County_Recovery_Programs.pdf",
       "page": 1,
       "label": "Full recovery guide",
-      "expected": "https://falloutmule.github.io/snc-unhoused-resources/recovery/",
-      "decoded": "https://falloutmule.github.io/snc-unhoused-resources/recovery/",
+      "expected": "https://falloutmule.github.io/mesa-county-unhoused-resources/recovery/",
+      "decoded": "https://falloutmule.github.io/mesa-county-unhoused-resources/recovery/",
       "dpi": 180,
       "pass": true
     },
     {
-      "file": "SNC_Recovery_Programs.pdf",
+      "file": "Mesa_County_Recovery_Programs.pdf",
       "page": 1,
       "label": "GJ offline phonebook",
-      "expected": "https://falloutmule.github.io/snc-unhoused-resources/phonebook/",
-      "decoded": "https://falloutmule.github.io/snc-unhoused-resources/phonebook/",
+      "expected": "https://falloutmule.github.io/mesa-county-unhoused-resources/phonebook/",
+      "decoded": "https://falloutmule.github.io/mesa-county-unhoused-resources/phonebook/",
       "dpi": 180,
       "pass": true
     },
     {
-      "file": "SNC_Recovery_Programs.pdf",
+      "file": "Mesa_County_Recovery_Programs.pdf",
       "page": 2,
       "label": "caritas",
       "expected": "https://caritasva.org/the-healing-place/",
@@ -99,7 +99,7 @@
       "pass": true
     },
     {
-      "file": "SNC_Recovery_Programs.pdf",
+      "file": "Mesa_County_Recovery_Programs.pdf",
       "page": 2,
       "label": "delancey",
       "expected": "https://www.delanceystreetfoundation.org/admission.php",
@@ -108,7 +108,7 @@
       "pass": true
     },
     {
-      "file": "SNC_Recovery_Programs.pdf",
+      "file": "Mesa_County_Recovery_Programs.pdf",
       "page": 2,
       "label": "trosa",
       "expected": "https://trosainc.org/admissions/",
@@ -117,7 +117,7 @@
       "pass": true
     },
     {
-      "file": "SNC_Recovery_Programs.pdf",
+      "file": "Mesa_County_Recovery_Programs.pdf",
       "page": 2,
       "label": "mission-teens",
       "expected": "https://www.missionteens.com/locations",
@@ -126,7 +126,7 @@
       "pass": true
     },
     {
-      "file": "SNC_Recovery_Programs.pdf",
+      "file": "Mesa_County_Recovery_Programs.pdf",
       "page": 2,
       "label": "salvation-army",
       "expected": "https://gethelp.salvationarmyusa.org/",
@@ -135,20 +135,20 @@
       "pass": true
     },
     {
-      "file": "SNC_Recovery_Programs.pdf",
+      "file": "Mesa_County_Recovery_Programs.pdf",
       "page": 2,
       "label": "Full recovery guide",
-      "expected": "https://falloutmule.github.io/snc-unhoused-resources/recovery/",
-      "decoded": "https://falloutmule.github.io/snc-unhoused-resources/recovery/",
+      "expected": "https://falloutmule.github.io/mesa-county-unhoused-resources/recovery/",
+      "decoded": "https://falloutmule.github.io/mesa-county-unhoused-resources/recovery/",
       "dpi": 180,
       "pass": true
     },
     {
-      "file": "SNC_Recovery_Programs.pdf",
+      "file": "Mesa_County_Recovery_Programs.pdf",
       "page": 2,
       "label": "GJ offline phonebook",
-      "expected": "https://falloutmule.github.io/snc-unhoused-resources/phonebook/",
-      "decoded": "https://falloutmule.github.io/snc-unhoused-resources/phonebook/",
+      "expected": "https://falloutmule.github.io/mesa-county-unhoused-resources/phonebook/",
+      "decoded": "https://falloutmule.github.io/mesa-county-unhoused-resources/phonebook/",
       "dpi": 180,
       "pass": true
     }

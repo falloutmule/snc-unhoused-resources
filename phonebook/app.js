@@ -5,8 +5,12 @@ const main = document.getElementById('main');
 const search = document.getElementById('search');
 const category = document.getElementById('category');
 // Some private browsers and file: viewers deny storage access. Browsing still works.
+const activeStorageKey = 'mesa-county-unhoused-resources-active';
 let activeId = 'start';
-try { activeId = localStorage.getItem('snc-unhoused-resources-active') || activeId; } catch (_) {}
+try {
+  // Preserve the last selected entry for people who used the previous edition.
+  activeId = localStorage.getItem(activeStorageKey) || localStorage.getItem('snc-unhoused-resources-active') || activeId;
+} catch (_) {}
 let printMode = false;
 const clearFilters = document.getElementById('clearFilters');
 const resultCount = document.getElementById('resultCount');
@@ -45,7 +49,7 @@ function renderTabs() {
     </button>`).join('') : '<div class="empty">No matching resources.</div>';
   tabs.querySelectorAll('.tab').forEach(btn => btn.addEventListener('click', () => {
     activeId = btn.dataset.id;
-    try { localStorage.setItem('snc-unhoused-resources-active', activeId); } catch (_) {}
+    try { localStorage.setItem(activeStorageKey, activeId); } catch (_) {}
     renderTabs();
     renderMain();
     document.getElementById('main').focus({preventScroll:true});
@@ -150,7 +154,7 @@ const shareButton = document.getElementById('shareApp');
 const installHelp = document.getElementById('installHelp');
 const downloadButton = document.getElementById('downloadHtml');
 const offlineStatus = document.getElementById('offlineStatus');
-const OFFLINE_CACHE_NAME = 'snc-unhoused-resources-v1-9df71d544d93';
+const OFFLINE_CACHE_NAME = 'mesa-county-unhoused-resources-v1-046ea5d138cf';
 let offlineReady = false;
 
 function showInstallHelp(message) {
@@ -213,7 +217,7 @@ async function makeSingleFileDownload() {
   clone.querySelector('#category').value = '';
   clone.querySelector('#clearFilters').disabled = true;
   const recoveryLink = clone.querySelector('#recoveryGuideLink');
-  if (recoveryLink) recoveryLink.href = 'https://falloutmule.github.io/snc-unhoused-resources/recovery/';
+  if (recoveryLink) recoveryLink.href = 'https://falloutmule.github.io/mesa-county-unhoused-resources/recovery/';
 
   clone.querySelectorAll('script[src]').forEach(node => node.remove());
   clone.querySelectorAll('link[rel="manifest"],link[rel="icon"]').forEach(node => node.remove());
@@ -248,7 +252,7 @@ async function makeSingleFileDownload() {
   const url = URL.createObjectURL(blob);
   const a = document.createElement('a');
   a.href = url;
-  a.download = 'SNC_Grand_Junction_Offline_Phonebook.html';
+  a.download = 'Mesa_County_Grand_Junction_Offline_Phonebook.html';
   document.body.appendChild(a);
   a.click();
   a.remove();
@@ -273,12 +277,12 @@ shareButton.addEventListener('click', async () => {
   const shareData = {
     title: 'Grand Junction Offline Unhoused Phonebook',
     text: 'Offline-first Grand Junction and Mesa County resource phonebook.',
-    url: 'https://falloutmule.github.io/snc-unhoused-resources/phonebook/'
+    url: 'https://falloutmule.github.io/mesa-county-unhoused-resources/phonebook/'
   };
   if (navigator.share) {
     try { await navigator.share(shareData); return; } catch (_) {}
   }
-  showInstallHelp('Share this address: https://falloutmule.github.io/snc-unhoused-resources/phonebook/');
+  showInstallHelp('Share this address: https://falloutmule.github.io/mesa-county-unhoused-resources/phonebook/');
 });
 
 function checkOfflineReady(registration) {
@@ -359,6 +363,6 @@ window.addEventListener('appinstalled', () => {
     heading.insertAdjacentElement('afterend', row);
   }
   link.href = isOfflineCopy
-    ? 'https://falloutmule.github.io/snc-unhoused-resources/recovery/'
+    ? 'https://falloutmule.github.io/mesa-county-unhoused-resources/recovery/'
     : '../recovery/';
 })();

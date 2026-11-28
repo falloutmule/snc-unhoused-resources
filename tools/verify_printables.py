@@ -36,13 +36,13 @@ for item in manifest:
     results.append({'file': filename, 'page': item['page'], 'label': item['label'],
                     'expected': item['url'], 'decoded': values[0], 'dpi': 180, 'pass': True})
 
-packet = fitz.open(OUT / 'SNC_Unhoused_Resources_Print_Packet.pdf')
+packet = fitz.open(OUT / 'Mesa_County_Unhoused_Resources_Print_Packet.pdf')
 assert len(packet) == 3
-assert len(opened['SNC_Unhoused_Resources_Flyer.pdf']) == 1
-assert len(opened['SNC_Recovery_Programs.pdf']) == 2
+assert len(opened['Mesa_County_Unhoused_Resources_Flyer.pdf']) == 1
+assert len(opened['Mesa_County_Recovery_Programs.pdf']) == 2
 for page in packet:
     text = page.get_text()
-    assert 'SNC UNHOUSED RESOURCES' in text.upper()
+    assert 'MESA COUNTY UNHOUSED RESOURCES' in text.upper()
     assert 'solidarity-not-charity-can-run' not in text
     assert ('Publication proof' in text) == (info['publication_status'] == 'pending')
     for block in page.get_text('dict')['blocks']:
