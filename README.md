@@ -2,11 +2,11 @@
 
 Practical, source-linked resources for people experiencing homelessness or housing instability, and for neighbors and volunteers helping them find support.
 
-**Publication status: prepared for deployment; the new public repository and GitHub Pages URLs have not been verified.** The Mesa County edition was prepared November 28, 2026. The source review was completed November 19, 2026. Individual phonebook entries retain the date and scope of their checks.
+**Publication status: published; verify the live routes after every deployment.** The Mesa County edition was prepared November 28, 2026. The source review was completed November 19, 2026. Individual phonebook entries retain the date and scope of their checks.
 
 ## Resources
 
-| Resource | What it includes | Planned public address |
+| Resource | What it includes | Public address |
 | --- | --- | --- |
 | Resource home | A simple starting page with links, offline files, printables and ways to suggest updates. | https://falloutmule.github.io/mesa-county-unhoused-resources/ |
 | Grand Junction offline phonebook | 58 entries covering Grand Junction and immediately relevant Mesa County services: basic needs, shelter, food, health care, transportation, benefits, legal help and more. Search and categories, Call or Text actions where supported, source links and Print all. | https://falloutmule.github.io/mesa-county-unhoused-resources/phonebook/ |
@@ -22,7 +22,7 @@ The `print/` folder contains US Letter PDFs:
 - Two-page program list with summaries, phone contacts and individual program website QR codes. [Recovery program list](print/Mesa_County_Recovery_Programs.pdf)
 - All three pages together for printing. [Complete print packet](print/Mesa_County_Unhoused_Resources_Print_Packet.pdf)
 
-The resource-page QR codes use the planned addresses above. **Do not distribute them as live links until GitHub Pages is deployed and checked.** Program website QR codes point directly to the listed operators. The draft printables carry a publication-pending notice; the handoff explains how to regenerate them after deployment.
+The resource-page QR codes use the addresses above. Program website QR codes point directly to the listed operators. Verify the live routes and scan the regenerated printables after every URL change.
 
 ## Keep a copy offline
 

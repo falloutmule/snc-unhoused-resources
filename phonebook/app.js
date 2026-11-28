@@ -154,7 +154,7 @@ const shareButton = document.getElementById('shareApp');
 const installHelp = document.getElementById('installHelp');
 const downloadButton = document.getElementById('downloadHtml');
 const offlineStatus = document.getElementById('offlineStatus');
-const OFFLINE_CACHE_NAME = 'mesa-county-unhoused-resources-v1-046ea5d138cf';
+const OFFLINE_CACHE_NAME = 'mesa-county-unhoused-resources-v1-052659b24b8c';
 let offlineReady = false;
 
 function showInstallHelp(message) {
